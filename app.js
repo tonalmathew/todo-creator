@@ -33,9 +33,6 @@ app.post("/", function(req, res){
         res.redirect("/");
     }else{
         var del = req.body.deleteButton;
-        console.log(req.body.deleteButton);
-        console.log(del);
-        
         for(i = 0; i<items.length;i++)
         {
             if(del === items[i]){

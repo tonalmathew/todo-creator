@@ -19,12 +19,14 @@
                 <input type="checkbox">
                 <p> <%= addItems[i] %> </p>
                 <form class="deleteItem" action="/" method="post">
-                    <button class="deleteBtn" type="submit" name="deleteButton" value="<%= addItems[i] %>"> <i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <button class="deleteBtn" type="submit" name="deleteButton" value="<%= addItems[i] %>">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
                 </form>
         </div>
         <% } %>
         <form class="addItem" action="/" method="post">
-            <input type="text" name="newItem" placeholder="New Item" maxlength="20" autocomplete="off">
+            <input type="text" name="newItem" placeholder="Add New Item" maxlength="15" autocomplete="off">
             <button type="submit" name="button">+</button>
             
         </form> 
