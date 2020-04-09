@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To DO list</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/0ad26dfd7a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <div class="box" id="heading">
         <h1> <%= kindOfDay %></h1>
     </div>
@@ -18,7 +19,7 @@
                 <input type="checkbox">
                 <p> <%= addItems[i] %> </p>
                 <form class="deleteItem" action="/" method="post">
-                    <button class="deleteBtn" type="submit" name="deleteButton" value="<%= addItems[i] %>">-</button>
+                    <button class="deleteBtn" type="submit" name="deleteButton" value="<%= addItems[i] %>"> <i class="fa fa-trash" aria-hidden="true"></i></button>
                 </form>
         </div>
         <% } %>
