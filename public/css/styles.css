@@ -1,7 +1,7 @@
 html {
   background-color: #E4E9FD;
   background-image: -webkit-linear-gradient(65deg, #84bfe6 30%, #d0dfe9 70%);
-  min-height: 700px;
+  min-height: 650px;
   font-family: 'helvetica neue';
 }
 
@@ -128,8 +128,9 @@ input[type="text"]:focus {
 }
 
 footer {
-  color: white;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
+  padding-top: 340px;
+  font-family: Montserrat;
+  font-size: 13px;
 }
-
