@@ -4,17 +4,22 @@
     </div>
 
     <div class="box">
-        <% for(i=0;i<addItems.length;i++){ %>
-        <div class="item">
+
+       <% addItems.forEach(function(item){ %>
+            <div class="item">
                 <input type="checkbox">
-                <p> <%= addItems[i] %> </p>
+                <p> <%= item.name %> </p>
                 <form class="deleteItem" action="/" method="post">
-                    <button class="deleteBtn" type="submit" name="deleteButton" value="<%= addItems[i] %>">
+                    <button class="deleteBtn" type="submit" name="deleteButton" value="<%= item._id %>">
                         <i class="fa fa-trash" aria-hidden="true"></i>
                     </button>
                 </form>
-        </div>
-        <% } %>
+            </div>
+        <% }) %>
+
+        <!-- <% for(i=0;i<addItems.length;i++){ %>
+        
+        <% } %> -->
         <form class="addItem" action="/" method="post">
             <input type="text" name="newItem" placeholder="Add New Item" maxlength="15" autocomplete="off">
             <button type="submit" name="button">+</button>
