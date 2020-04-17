@@ -7,7 +7,7 @@ A simple to-do creator
   - HTML
   - CSS
   - Bootstrap
- * Backend
+* Backend
   - EJS
   - Node
   - Express
