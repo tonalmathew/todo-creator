@@ -1,6 +1,6 @@
 # todo-creator
 
-A simple to-do creator 
+A simple **to-do** creator 
 
 ### Languages used
 * Frontend
@@ -15,5 +15,5 @@ A simple to-do creator
 
 ### Functionality
 As always
->Inserting item
->Deleting item
+- [x] Inserting item
+- [x] Deleting item
