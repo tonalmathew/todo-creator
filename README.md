@@ -1,6 +1,6 @@
 # todo-creator
 
-A simple **to-do** creator 
+A simple ***to-do*** creator 
 
 ### Languages used
 * Frontend
