@@ -1,4 +1,4 @@
-# todo-creator
+# ToDo-creator
 
 A simple ***to-do*** creator 
 
@@ -14,6 +14,6 @@ A simple ***to-do*** creator
   - MongoDB
 
 ### Functionality
-As always
+As always:
 - [x] Inserting item
 - [x] Deleting item
