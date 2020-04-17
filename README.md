@@ -14,6 +14,7 @@ A simple ***to-do*** creator
   - MongoDB
 
 ### Functionality
-As always:
+As always :sweat_smile: :joy: :
 - [x] Inserting item
 - [x] Deleting item
+
