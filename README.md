@@ -4,7 +4,7 @@ A simple ***to-do*** :wink: creator
 
 ### Languages used
   - EJS
-  - Node
+  - Node js
   - Express
   - MongoDB
 
